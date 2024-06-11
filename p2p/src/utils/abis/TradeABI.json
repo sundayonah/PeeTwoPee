@@ -1,0 +1,22 @@
+[
+    {
+        "inputs":[
+            {"internalType":"contract IERC20","name":"purchaseToken","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},
+            {"internalType":"address","name":"referral","type":"address"}],"name":"makeSellOrder",
+                "outputs":[
+                {"internalType":"uint256","name":"","type":"uint256"}
+                ],
+                "stateMutability":"nonpayable",
+                "type":"function"
+    },
+  {
+    "inputs":[
+        {"internalType":"contract IERC20","name":"purchaseToken","type":"address"},{"internalType":"address","name":"from","type":"address"},
+        {"internalType":"uint256","name":"productID","type":"uint256"},{"internalType":"uint256","name":"fee","type":"uint256"}
+        ],
+        "name":"makeBuyPurchase",
+        "outputs":[],
+        "stateMutability":"nonpayable",
+        "type":"function"
+}
+]

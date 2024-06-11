@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerListItemComponent /> Matches snapshot 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-11uwsgz"
+    >
+      <div
+        class="css-0"
+      >
+        <div
+          class="css-k008qs"
+        >
+          <div
+            class="css-1f52nmj"
+            data-testid="profilePicture"
+          >
+            G
+          </div>
+          <div
+            class="css-9n3bbc"
+          >
+            <div
+              class="css-1euf48e"
+            >
+              <p
+                class="chakra-text css-5r24gd"
+                data-testid="profileUsername"
+              >
+                GabrielS
+              </p>
+              <div
+                class="css-m0ceft"
+                data-testid="profileStatus"
+              />
+              <img
+                class="chakra-image css-14gt3bc"
+                data-testid="profileBadge"
+                src=""
+              />
+            </div>
+            <p
+              class="chakra-text css-1vzthj9"
+              data-testid="profileInformation"
+            >
+              45
+               Order(s) | 
+              34.6
+              % Completion
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-0"
+      >
+        <div
+          class="css-k008qs"
+        >
+          <p
+            class="chakra-text css-gre1pd"
+          >
+            500.00
+          </p>
+          <p
+            class="chakra-text css-1ol4k66"
+          >
+            NGN
+          </p>
+        </div>
+      </div>
+      <div
+        class="css-0"
+      >
+        <div
+          class="css-gg4vpm"
+        >
+          <p
+            class="chakra-text css-141h1cx"
+          >
+            Available
+          </p>
+          <p
+            class="chakra-text css-hhrkbn"
+            data-testid="available"
+          >
+            0.045
+             
+            BNB
+          </p>
+        </div>
+        <div
+          class="css-gg4vpm"
+        >
+          <p
+            class="chakra-text css-ae7sfc"
+          >
+            Limit
+          </p>
+          <p
+            class="chakra-text css-hhrkbn"
+            data-testid="limit"
+          >
+             NGN
+            3000.00
+             - NGN
+            53000.00
+          </p>
+        </div>
+      </div>
+      <div
+        class="css-j93o2j"
+      >
+        <div
+          class="css-1l4w6pd"
+        >
+          <div
+            class="css-v8h3im"
+          >
+            Bank Transfer
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-0"
+      >
+        <div
+          class="css-1bvc4cc"
+        >
+          <button
+            class="chakra-button css-18nrrwh"
+            data-testid="button"
+            type="button"
+          >
+            Sell BNB
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

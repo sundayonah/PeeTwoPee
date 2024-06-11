@@ -1,0 +1,1 @@
+process.env.REACT_APP_NETWORK_URL="https://data-seed-prebsc-1-s1.binance.org:8545"

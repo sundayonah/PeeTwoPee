@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SellerInformation /> Matches snapshot 1`] = `
+<div>
+  <div
+    class="css-k008qs"
+  >
+    <img
+      class="chakra-image css-0"
+      data-testid="profilePicture"
+      src="93993"
+    />
+    <div
+      class="css-9n3bbc"
+    >
+      <div
+        class="css-1euf48e"
+      >
+        <p
+          class="chakra-text css-5r24gd"
+          data-testid="profileUsername"
+        >
+          John Doe
+        </p>
+        <div
+          class="css-m0ceft"
+          data-testid="profileStatus"
+        />
+        <img
+          class="chakra-image css-14gt3bc"
+          data-testid="profileBadge"
+          src=""
+        />
+      </div>
+      <p
+        class="chakra-text css-1vzthj9"
+        data-testid="profileInformation"
+      >
+        45
+         Order(s) | 
+        34.6
+        % Completion
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,75 @@
+Sell Ads 
+We have displayed SELL ads from different vendors across. They all have detailsblike Name of Vendor, Completion Rate, Cryto price, Limit and Available Quality, Payment Method, etc.
+
+Sell TOKEN 
+once you see a vendor that matches your taste, you can start the trading process by clicking on the SELL BUTTON
+
+The Sell Modal  
+Here, you can either input the exact amount you want to sell(in cypto) or input the amount of fiat currency you want to receive. Click on the SELL BUTTON once you're done
+
+Lock Tokens
+Once trade proceeds to this screen, you'll have to lock tokens on the system to keep them safe for the buyer. Buyer can't make payment until you lock your tokens.you can cancel the trade as well, in cases where the trade goes wrong or unsuitable.
+
+Coin release
+Once the buyer makes payment, they notify the system which later informs you to confirm if you received any payment for this particular transaction. Clicking on PAYMENT RECEIVED validate the actio and the token are released to the buyer.
+
+Start disputes
+Disputes can be started when trades go wrong. for example, if the system notifies you that the buyer made payment and you didn't receive this after a while, you can start a dispute.
+
+Transaction Complete!
+if there's no disput between you and the vendors, the system releases the tokens to the buyer's wallet immediately to mark that the trade was successful.
+
+-------------------------------------------------------------------------------------
+Buy Flow
+--------------------------------------------------------------------------------------
+
+Token Selection
+
+You can select the token/cryptocurrency you'll like to buy. Selcting a token means you'll only see BUY adds for that particular token
+
+Fiat Currency 
+Fiat currencies are your local currencies, such as the US dollar, Nigerian Naira, Euro, British Pound, etc., and are used to buy tokens or cryptocurrencies. You need to select a fiat currency to buy token/crypto
+
+
+Amount 
+This amount refers to the price of the token or cryptocurrency. ou can choose to enter an amount of token price to filtwr the results of the BUY ads.
+
+Payment methods
+Vendors on the platform might have different payment methods. When selecting a vendor, ensure their payment method matches your prefered method of payment
+
+Buy Ads
+We have displayed BUY ads from different vendors across. They all have details like Name of Vendor, Completion Rate, Cryto Price ,Limit and Available Quality, Payment Methods, etc
+
+BUY TOKEN
+Once you see a vendor that matches your taste, you can start the trading process by clicking on the BUY BUTTON.
+
+
+The Buy Modal
+HEre , you can either input the amount (in Fiat) you want to pay for the token you're buying (within the vendor's linmits) or input the exact amount of tokens you want to buy . Click on the BUY BUTTON once you're done.
+
+Order/Trade Timer
+Trade immediately starts when you get this screen. There is a time limit of 15mins for you to interact with this interface
+
+Message Box
+You can message the vendor anytime during the trade. This keeps communication going throughout the trading process.
+
+Order Information
+Information about your / trade with the vendor are shown here. Details like Amount to pay, Pric and the Amount of tokens you'll recieve.
+
+Seller's Account Information
+immediately the seller approves this trade from his end by locking up the token on the system, their account information is shown to you to make payment.
+
+Notify Seller 
+After you have successfully made payment, click on NOTIFY SELLER so that the system will pass the message across. Before payments are made, you can cancel i you found trade unsuitable.
+
+
+Coin Release and Disputes
+The system will release the token immediately the seller approves payments from you. Else, you can start disputes in case the trade goes wrong.
+
+
+Transaction Complete!
+If there's no dispute between you and the vendors, the system releases the tokens to your wallet immediately to mark the trade was completed 
+
+
+////
+
