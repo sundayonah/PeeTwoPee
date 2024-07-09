@@ -121,54 +121,15 @@ export default function SellListData({
   ];
 
     const LIGHT_THEME = "light";
-  const DARK_THEME = "dark";
+    const DARK_THEME = "dark";
 
-
+console.log(orders)
 
   return (
     <Box className="BuyAds">
-     
 
-      {orders?.length === 0 ? (
-        // <Box >
-        //  <NOOrder
-        // text={t("no_ads")}
-        // subText={t('no_ads_text')}
-        // button="none"
-     
-        // >
-        //   <Box my="30px">
-        //     <Text textAlign="center"  fontSize="14px" color="#319EF6">{t('available_ads')}</Text>
-        //   <Flex
-        //   justifyContent="center"
-        //   gap="20px"
-        //   flexWrap="wrap"
-        //   my="10px"
-         
-        //   >
-        //     {suggestions.map((item,index)=>{
-        //       return (
-        //         <Flex key={index}
-        //         // borderColor={inputBorderColor}
-        //         justifyContent="space-between"
-        //         boxSizing="border-box"
-        //         cursor="pointer"
-        //         onClick={()=>selectAsset(item)}
-        //         >
-        //          {item.image || item.asset==="RGP" ? <Image src={item.asset ==="RGP" ? RGPImage : item.asset==="BUSD" ? "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/binance/assets/BUSD-BD1/logo.png" : item?.image} width="30px" alt={item.asset} fontSize="11px"/>
-        //           :  <Text fontSize="16px" mt="10px" textDecoration="underline">{item.asset}</Text>}
-        //         </Flex>
-        //       )
-        //     })}
-        //   </Flex>
-        //   </Box>
-          
-        // </NOOrder>
-   
-        //   </Box>
-      
-        <Box>
-          
+      {orders == undefined ? (
+        <Box>      
           <TableContainer>
             <Table variant="simple">
            <Thead
@@ -295,7 +256,7 @@ export default function SellListData({
                                 isChecked={order.status === "online"}
                               />
                               <Text cursor={"pointer"}>
-                                {order.status == "online"
+                                {order.status === "online"
                                   ? t('online')
                                   : t("offline")}
                               </Text>

@@ -107,5 +107,4 @@ const FormWalletConnect = () => {
   )
 }
 }
-
-export default FormWalletConnect
+export default FormWalletConnect;

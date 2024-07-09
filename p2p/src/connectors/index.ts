@@ -6,22 +6,33 @@ import { NetworkConnector } from "./NetworkConnector";
 import { ALL_SUPPORTED_CHAIN_IDS, SupportedChainId } from "../constants/chains";
 import {UAuthConnector} from '@uauth/web3-react'
 
+// const RPC = {
+//   [SupportedChainId.BINANCE]: "https://bsc-dataseed.binance.org",
+//   [SupportedChainId.BINANCETEST]:
+//     "https://data-seed-prebsc-2-s3.binance.org:8545",
+//   // [SupportedChainId.ROPSTEN]:
+//   //   "https://eth-ropsten.alchemyapi.io/v2/cidKix2Xr-snU3f6f6Zjq_rYdalKKHmW",
+//   // [SupportedChainId.RINKEBY]:
+//   //   "https://eth-rinkeby.alchemyapi.io/v2/XVLwDlhGP6ApBXFz_lfv0aZ6VmurWhYD",
+//   // [SupportedChainId.GOERLI]:
+//   //   "https://eth-goerli.alchemyapi.io/v2/Dkk5d02QjttYEoGmhZnJG37rKt8Yl3Im",
+//   // [SupportedChainId.KOVAN]:
+//   //   "https://eth-kovan.alchemyapi.io/v2/6OVAa_B_rypWWl9HqtiYK26IRxXiYqER",
+//   [SupportedChainId.POLYGON]: `https://rpc-mainnet.maticvigil.com/`,
+//   [SupportedChainId.POLYGONTEST]: "https://rpc-mumbai.matic.today",
+//   // [SupportedChainId.OASISTEST]: "https://testnet.emerald.oasis.dev",
+//   // [SupportedChainId.OASISMAINNET]: "https://emerald.oasis.dev",
+// };
+
+// RPC URLs for supported chains
+
+
 const RPC = {
   [SupportedChainId.BINANCE]: "https://bsc-dataseed.binance.org",
-  [SupportedChainId.BINANCETEST]:
-    "https://data-seed-prebsc-2-s3.binance.org:8545",
-  // [SupportedChainId.ROPSTEN]:
-  //   "https://eth-ropsten.alchemyapi.io/v2/cidKix2Xr-snU3f6f6Zjq_rYdalKKHmW",
-  // [SupportedChainId.RINKEBY]:
-  //   "https://eth-rinkeby.alchemyapi.io/v2/XVLwDlhGP6ApBXFz_lfv0aZ6VmurWhYD",
-  // [SupportedChainId.GOERLI]:
-  //   "https://eth-goerli.alchemyapi.io/v2/Dkk5d02QjttYEoGmhZnJG37rKt8Yl3Im",
-  // [SupportedChainId.KOVAN]:
-  //   "https://eth-kovan.alchemyapi.io/v2/6OVAa_B_rypWWl9HqtiYK26IRxXiYqER",
-  [SupportedChainId.POLYGON]: `https://rpc-mainnet.maticvigil.com/`,
+  [SupportedChainId.BINANCETEST]: "https://data-seed-prebsc-2-s3.binance.org:8545",
+  [SupportedChainId.POLYGON]: "https://rpc-mainnet.maticvigil.com/",
   [SupportedChainId.POLYGONTEST]: "https://rpc-mumbai.matic.today",
-  // [SupportedChainId.OASISTEST]: "https://testnet.emerald.oasis.dev",
-  // [SupportedChainId.OASISMAINNET]: "https://emerald.oasis.dev",
+  // Add other chains if needed
 };
 
 export enum ConnectorNames {
@@ -57,8 +68,6 @@ export const injected = new InjectedConnector({
   supportedChainIds: ALL_SUPPORTED_CHAIN_IDS,
 });
 
-
-
 const supportedChainIds = [56, 97, 80001, 137];
 
 export const checkSupportedIds = (chainID: number) => supportedChainIds.some((id) => id === chainID);
@@ -68,7 +77,7 @@ export const bscConnector = new BscConnector({
 
 export const walletconnect = new WalletConnectConnector({
   supportedChainIds: ALL_SUPPORTED_CHAIN_IDS,
-  rpc: RPC,
+  rpc: RPC,  
   qrcode: true,
   // bridge: 'https://bridge.walletconnect.org',
   // pollingInterval: 15000,

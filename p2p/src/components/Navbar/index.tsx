@@ -129,8 +129,8 @@ export default function Index() {
                   )}
                 </Flex>
               </Flex>
-              <Spacer />
-
+                <Spacer />
+                
               <Flex h='8' justify='flex-end' >
                 <Flex>
                  {!isDemoAccount && <Button
@@ -148,7 +148,7 @@ export default function Index() {
                   <WalletConnection />
                 </Flex>
                 <Flex mt="4px">
-                  <SocialMedia />
+                 <SocialMedia />
                 <ColorModeSwitcher />
                 <LanguageSwitcher />
                 </Flex>
