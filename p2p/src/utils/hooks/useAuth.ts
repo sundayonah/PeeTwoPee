@@ -48,13 +48,18 @@ const useFetchUser = () => {
 };
 
 export const useLogin = () => {
-  const { account, error,active } = useActiveWeb3React();
+  const { account, error, active } = useActiveWeb3React();
+console.log({account, active})
+  
   const [login, { data: loginData, loading: loginLoading, error: loginError }] =
     useMutation(LOGIN, {
       variables: {
         input: account,
       },
     });
+  
+  // console.log(loginData)
+  
 
 
   const [loading, setLoading] = useState(true);
@@ -64,7 +69,9 @@ export const useLogin = () => {
   
   const [isUsupportedNtwrk, setIsUnsupportedNtwrk] = useState(false)
 
-  
+  // console.log(authenticated)
+
+
   //for unsupported network
   useEffect(() => {
     setIsUnsupportedNtwrk(false)
@@ -141,9 +148,11 @@ export const useLogin = () => {
   return { loading, authenticated, isUsupportedNtwrk };
 };
 
+
 const useAuth =  () => {
   const context = useActiveWeb3React();
   const { activate, deactivate, setError, error } = context;
+
   const dispatch = useDispatch();
 
   const login = useCallback(

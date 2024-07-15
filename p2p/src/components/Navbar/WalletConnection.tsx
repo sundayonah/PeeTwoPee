@@ -7,7 +7,6 @@ import {
   useMediaQuery,
   HStack,
   Box,
-  
 } from "@chakra-ui/react";
 import { IoWalletOutline } from "react-icons/io5";
 import { useActiveWeb3React } from "../../utils/hooks/useActiveWeb3React";
@@ -57,6 +56,7 @@ export default function WalletConnection() {
     };
     init();
   }, [account]);
+
 
   if (account) {
     return (
@@ -139,7 +139,7 @@ export default function WalletConnection() {
             onClick={() => setDisplayWallet((state) => !state)}
             variant={"ghost"}
             fontSize='12px'
-          width={["120px","120px","auto"]}
+            width={["120px","120px","auto"]}
             rightIcon={<StatusIcon connector={connector} />}
           >
             {userDomain ? userDomain : shortenAddress(account)}
