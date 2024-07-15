@@ -26,7 +26,6 @@ const SocialMediaLinks = () => {
         _hover={{ bg: 'gray.100' }}
         _focus={{ boxShadow: 'outline' }}
         icon={<IoEllipsisHorizontalOutline />}
-
       />
       <MenuList>
         <a
