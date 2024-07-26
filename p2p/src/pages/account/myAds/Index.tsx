@@ -86,6 +86,8 @@ const {t} = useTranslation()
     },
     fetchPolicy: "no-cache",
   });
+
+  console.log(data)
   
 
   useEffect(() => {
@@ -153,7 +155,6 @@ const {t} = useTranslation()
           setSelectedFiat={setSelectedFiat}
           showAdsStatus={true}
         />
-
         <TabPanels>
           <TabPanel p='0' pt={4} pb={4}>
             <AllAds refetch={refetch} setrefetchCounter={setrefetchCounter} loading={loading} />

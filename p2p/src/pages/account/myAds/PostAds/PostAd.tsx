@@ -210,6 +210,8 @@ const PostAd = () => {
     }
   }, [orderData]);
 
+  console.log({tokenAddress, isEdit})
+
   const sellApproval = async () => {
     if (account) {
       const token = await getERC20Token(tokenAddress, library);
@@ -400,6 +402,9 @@ const PostAd = () => {
       });
     }
   }, [data]);
+
+
+  // console.log(data)
 
   const handleCreateAd = async () => {
     dispatch(
